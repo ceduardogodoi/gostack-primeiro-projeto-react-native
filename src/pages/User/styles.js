@@ -76,6 +76,12 @@ const Author = styled.Text`
   margin-top: 2px;
 `;
 
+const LoaderContainer = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
+
 export {
   Stars,
   Container,
@@ -88,4 +94,5 @@ export {
   Info,
   Title,
   Author,
+  LoaderContainer,
 };
